@@ -1,0 +1,64 @@
+.home{
+    margin-top: 10vh;
+    width: 100vw;
+}
+.pane{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftPane{
+    flex: 1;
+    padding: 5rem;
+  }
+.rightPane{
+    flex: 1;
+    padding: 5rem;
+}
+.firstPane{
+    background: #000;
+    height: 90vh;
+}
+.firstRight{
+    /* flex:1; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* padding-right: 5rem; */
+    /* min-height: 60vh; */
+}
+.firstRight>h1{
+    text-align: right;
+}
+
+.kycpane{
+    
+}
+.kycimage{
+    flex: 1;
+    padding: 4rem;
+}
+.kyctext{
+    flex: 1;
+    color: #002376;
+    text-align: right;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 3rem;
+
+}
+.planPane{
+    background-color: #000;
+}
+.planHome{
+    color: white;
+
+}
+.planimg{
+    display: block;
+    height: 50vh;
+}
+.planText{
+    color: white;
+}

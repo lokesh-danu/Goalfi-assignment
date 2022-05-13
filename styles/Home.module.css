@@ -10,11 +10,11 @@
 }
 .leftPane{
     flex: 1;
-    padding: 5rem;
+    padding-left: 5rem;
   }
 .rightPane{
     flex: 1;
-    padding: 5rem;
+    padding-right: 5rem;
 }
 .firstPane{
     background: #000;
@@ -53,12 +53,18 @@
 }
 .planHome{
     color: white;
-
+    flex-direction: column;
 }
 .planimg{
-    display: block;
-    height: 50vh;
+    /* padding: 5rem; */
+    min-height: 50vh;
 }
 .planText{
     color: white;
+}
+.planSlide{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

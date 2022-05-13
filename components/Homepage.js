@@ -35,32 +35,32 @@ const Homepage = () => {
             </div>
             <div className={`${style.pane} ${style.planPane}`} >
                 <Carousel showArrows={false} >
-                    <div className={`${style.planHome}`}>
+                    <div className={`${style.planHome} ${style.planSlide}`}>
                         <h1>Goal Based Planning</h1>
                         <span>Plan your finances using goal based planning</span>
-                        <Image src={planHome}  layout="responsive"/>
+                        <Image src={planHome}  height={414} width={542} />
                     </div>
-                    <div>
+                    <div className={style.planSlide}>
                         <div className={`${style.leftPane} ${style.planimg}`}>
-                            <Image src={investPlan} layout="responsive"></Image>
+                            <Image src={investPlan} height={414} width={542} ></Image>
                         </div>
                         <div className={`${style.rightPane} ${style.planText}`}>
                             <h1>Investment planning</h1>
                             <span>Easily manage your finances with accuracy and experience!</span>
                         </div>
                     </div>
-                    <div>
+                    <div className={style.planSlide}>
                         <div className={`${style.leftPane} ${style.planimg}`}>
-                            <Image src={insurPlan} layout="responsive"></Image>
+                            <Image src={insurPlan} height={414} width={542} ></Image>
                         </div>
                         <div className={`${style.rightPane} ${style.planText}`}>
                             <h1>Insurance planning</h1>
                             <span>Easily manage your finances with accuracy and experience!</span>
                         </div>
                     </div>
-                    <div>
+                    <div className={style.planSlide}>
                         <div className={`${style.leftPane} ${style.planimg}`}>
-                            <Image src={insurPlan} layout="responsive"></Image>
+                            <Image src={insurPlan} height={414} width={542} ></Image>
                         </div>
                         <div className={`${style.rightPane} ${style.planText}`}>
                             <h1>Insurance planning</h1>
